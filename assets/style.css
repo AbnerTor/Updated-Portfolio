@@ -1,0 +1,212 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f0f4ef;
+    color: #0d1821;
+    height: auto;
+    width: 90%;
+}
+
+#newHTML {
+    background-color: #0d1821;
+    color: #f0f3ef;
+    font-family: Montserrat;
+    font-size: 40px;
+    font-weight: lighter;
+}
+
+#newHTMLDiv {
+    width: 70%;
+    position: relative;
+    left: 10%;
+    padding-top: 10%;
+}
+
+#sideSection {
+    position: fixed;
+    top: 40%;
+    left: 20px;
+    font-size: 25px;
+    width: 15%;
+    float: left;
+    display: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#aboutMeSection {
+    padding-bottom: 300px;
+}
+
+#projectsSection {
+    padding-bottom: 200px;
+    font-size: 20px;
+}
+
+#sectionContainer {
+    width: 85%;
+    float: right;
+}
+
+#mainHeader {
+    position: relative;
+    left: 6%;
+    top: 10px ;
+    padding-bottom: 250px;
+}
+
+#mainHeaderTop {
+    font-size: 30px;
+    padding-bottom: 1%;
+    padding-top: 14.5%;
+}
+
+#mainHeaderBottom {
+    font-size: 85px;
+    margin-top: -20px;
+    line-height: 70px;
+    padding-bottom: 10%;
+}
+
+#topLinks {
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    left: -2%;
+    margin-bottom: 10%;
+    padding-bottom: 10%;
+    font-size: 30px;
+}
+
+#pAM {
+    border-bottom: solid;
+}
+#pProj {
+    border-bottom: solid;
+}
+#pCont{
+    border-bottom: solid;
+}
+
+#aboutMeHeader {
+    padding-top: 10%;
+    padding-bottom: 10%;
+    font-size: 65px;
+    position: relative;
+    right: 60px;
+}
+
+#abmPNG {
+    height: 70px;
+    width: auto;
+    position: relative;
+    top: 6.5px;
+    color: white;
+}
+
+#abmCont {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: 18px;
+}
+
+#picture {
+    width: 300px;
+    height: 500px;
+}
+#picDiv {
+    float: right;
+}
+#textDiv {
+    float: left;
+    width: 50%;
+}
+
+#abmDivList {
+    position: relative;
+    left: 10.5%;
+    font-size: 20px;
+}
+
+#familiarTech {
+    list-style-type: square;
+    position: relative;
+    left: 50px;
+}
+
+#projectHeader {
+    font-size: 65px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    right: 2%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+#rocket {
+    height: 46px;
+    padding-left: 20px;
+}
+
+#pHead {
+    padding-bottom: 20px;
+}
+
+#projectContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#projectMiniContainer { 
+    padding-top: 20px;
+}
+
+#project1 {
+    border-style: solid;
+    border-width: 5px;
+    border-color: #344966;
+    height: 290px;
+    background-color: #0d1821;
+    color: #f0f4ef;
+    width: 100%;
+
+}
+#project2,
+#project3,
+#project4,
+#project5 {
+    padding-top: 10%;
+    padding-bottom: 30%;
+    height: 250px;
+    width: 720px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #344966;
+    background-color: #0d1821;
+    color: #f0f4ef;
+}
+
+#contactSection {
+    padding-bottom: 10%;
+    font-size: 20px;
+}
+
+#contactHeader {
+    font-size: 65px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    right: 1%;
+    padding-top: 10%;
+}
+
+#contactLinks {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#resume {
+    display: flex;
+    justify-content: center;
+}
