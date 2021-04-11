@@ -33,8 +33,16 @@ body {
 
 }
 
+#aboutMeSection {
+    padding-bottom: 10%;
+}
+
+#spacerDiv {
+    height: 10px;;
+}
 
 #projectsSection {
+    padding-top: 10%;
     padding-bottom: 200px;
     font-size: 20px;
 }
@@ -113,8 +121,8 @@ body {
 }
 
 #picture {
-    width: 300px;
-    height: 500px;
+    width: 400px;
+    height: auto;
 }
 #picDiv {
     float: right;
@@ -126,8 +134,9 @@ body {
 
 #abmDivList {
     position: relative;
-    left: 10.5%;
+    left: 10%;
     font-size: 20px;
+    margin-top: -12%;
 }
 
 #familiarTech {
@@ -151,6 +160,10 @@ body {
 }
 
 #pHead {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    right: 2%;
     font-size: 20px;
     padding-bottom: 10%;
 }
@@ -239,4 +252,7 @@ body {
 #resumeImage {
     height: 30px;
     padding-left: 10px;
+}
+
+@media (max-width) {
 }
