@@ -30,11 +30,13 @@ body {
     float: left;
     display: flex;
     flex-direction: column;
+    display: none;
 
 }
 
 #aboutMeSection {
     padding-bottom: 10%;
+
 }
 
 #spacerDiv {
