@@ -24,7 +24,7 @@
 
     <div id="sideSection" class="grid-col-1">
         <a href="#aboutMeHeader" id="aboutMeSideLink">About Me</a>
-        <a href="#spacerDiv" id="ProjectSideLink">Projects</a>
+        <a href="#spacerDiv" id="projectSideLink">Projects</a>
         <a href="#contactLinks" id="contactSideLink">Contact</a>
         <a href="#mainHeader" id="backTopSideLink">Back to the Top</a>
     </div>
@@ -34,18 +34,18 @@
 
         <section id="aboutMeSection">
 
-            <header id="mainHeader">
+            <header id="mainHeader" class="animate__animated animate__backInRight">
                 <p id="mainHeaderTop">Hey, welcome to my page</p>
                 <p id="mainHeaderBottom">I'm Abner</p>
             </header>
 
-            <div id="topLinks" class="row-span-4">
-                <a href="#aboutMeHeader" id="pAM">ABOUT ME</a>
-                <a href="#projectsSection" id="pProj">PROJECTS</a>
-                <a href="#contactLinks" id="pCont">CONTACT</a>
+            <div id="topLinks" class="row-span-4 animate__animated animate__backInLeft">
+                <a class="shadow-md" href="#aboutMeHeader" id="pAM">ABOUT ME</a>
+                <a class="shadow-md" href="#projectsSection" id="pProj">PROJECTS</a>
+                <a class="shadow-md" href="#contactLinks" id="pCont">CONTACT</a>
             </div>
 
-            <div>
+            <div class="shadow-lg">
 
                 <h1 id="aboutMeHeader" class="flex justify-center">About Me <img id="abmPNG" src="assets/images/man.png"
                         alt="person-png"></h1>
@@ -64,7 +64,11 @@
                             but I have high hopes for what lies ahead.</p>
                     </div>
 
-                    <div id="picDiv"><img id="picture" src="assets/images/portrait.jpeg" alt="Picture_Of_Me"></div>
+                    <div id="picDiv">
+                        <div id="subPic">
+                            <img id="picture" src="assets/images/portrait.jpeg" alt="Picture_Of_Me">
+                        </div>
+                    </div>
 
                 </div>
 
@@ -75,8 +79,10 @@
                     <ul id="familiarTech">
                         <li>HTML & CSS</li>
                         <li>Javascript & Jquery</li>
-                        <li>Node.js</li>
+                        <li>NodeJS</li>
                         <li>Bootstrap & Tailwind</li>
+                        <li>MySql and Sequelize</li>
+                        <li>MongoJS</li>
                     </ul>
                 </div>
 
@@ -88,45 +94,94 @@
 
         <div id="spacerDiv"></div>
 
-        <section id="projectsSection">
+        <section id="projectsSection" class="shadow-lg">
 
             <h1 id="projectHeader">Projects <img id="rocket" src="assets/images/rocket.png" alt=""></h1>
 
-            <p id="pHead">Here Are A Few Of The Things I Have Worked On: </p>
+            <p id="pHead">Here Are A Few Things I Have Worked On: </p>
 
             <div id="projectContainer" class="flex">
 
-                <div class="shadow-2xl">
-                    <a href="https://abnertor.github.io/WantADog/">
-                    <img class="object-cover h-72 w-full" src="assets/images/Project 1.png" alt="Project One Image">
-                    </a>
+                <div id="projectMiniContainer" class="grid grid-cols-2 gap-4">
+
+                    <div id="loSientoProject">
+                        <h1 id="lsHeader">Project LoSiento</h1>
+                        <a href="https://losiento.herokuapp.com/"><img id="loSiento" src="assets/images/LoSientoSS.PNG"
+                                alt="Project-2"></a>
+
+                    </div>
+
+                    <div id="dogeProject">
+                        <h1 id="dogeHeader">Project Want a Dog</h1>
+                        <a href="https://abnertor.github.io/WantADog/"> <img id="doge"
+                                src="assets/images/project2SS.PNG" alt="Doge" width="97.5%"></a>
+
+                    </div>
+
                 </div>
 
-                <div id="projectMiniContainer" class="grid grid-cols-2 gap-4">
-                    <div>
-                        <a href="assets/empty.html">
-                            <img class="object-cover h-64 w-full" src="assets/images/Project 2.png" alt="project2">
-                        </a>
-                    </div>
+                <div id="homeworkContainer" class="grid grid-cols-3">
 
 
-                    <div>
-                        <a href="assets/empty.html">
-                            <img class="object-cover h-64 w-full" src="assets/images/Project 3.png" alt="project2">
-                        </a>
-                    </div>
+                    <a href="https://github.com/AbnerTor/Week9-NodeJS">
+                        <div class="p-10">
+                            <!--Card 1-->
+                            <div class="max-w-sm rounded overflow-hidden shadow-lg">
+                                <img class="w-full" src="assets/images/readmegen.PNG" alt="Mountain">
+                                <div class="px-6 py-4">
+                                    <div class="font-bold text-xl mb-2">ReadMe Generator</div>
+                                    <p class="text-gray-700 text-base">
+                                        This was an inquirer based assignment where we were tasked with creating a readme genereator.
+                                    </p>
+                                </div>
+    
+                            </div>
+                        </div>
+                    
+                    </a>
 
-                    <div>
-                        <a href="assets/empty.html">
-                            <img class="object-cover h-64 w-full" src="assets/images/Project 4.png" alt="project2">
-                        </a>
-                    </div>
 
-                    <div>
-                        <a href="assets/empty.html">
-                            <img class="object-cover h-64 w-full" src="assets/images/Project 5.png" alt="project2">
-                        </a>
-                    </div>
+                    
+
+                    <a href="https://abnertor.github.io/Week5Homework/">
+                    
+                        <div class="p-10">
+                            <!--Card 1-->
+                            <div class="max-w-sm rounded overflow-hidden shadow-lg">
+                                <img class="w-full" src="assets/images/workdayplanner.PNG" alt="Mountain">
+                                <div class="px-6 py-4">
+                                    <div class="font-bold text-xl mb-2">Daily Planner</div>
+                                    <a href="https://abnertor.github.io/Week5Homework/"></a>
+                                    <p class="text-gray-700 text-base">
+                                        For this assignement, we had to implement MomentJS, it was an interesting experience, and could be very useful.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    
+                    </a>
+
+
+
+                    <a href="https://abnertor.github.io/Week6homework/">
+                    
+                        <div class="p-10">
+                            <!--Card 1-->
+                            <div class="max-w-sm rounded overflow-hidden shadow-lg">
+                                <img class="w-full" src="assets/images/weatherAPI.PNG" alt="WeatherAPP">
+                                <div class="px-6 py-4">
+                                    <div class="font-bold text-xl mb-2">Weather API</div>
+                                    <p class="text-gray-700 text-base">
+                                        This assignment was focused on getting information back from an the WeatherAPi, it was lots of fun and very challenging.
+                                    </p>
+                                </div>
+    
+                            </div>
+                            
+                        </div>
+                    </a>
+
+
 
                 </div>
             </div>
@@ -134,19 +189,22 @@
 
         </section>
 
-        <section id="contactSection">
+        <section id="contactSection" class="shadow-lg">
 
             <h1 id="contactHeader">Contact <img id="contactPic" src="assets/images/contact.png" alt="contactImage"></h1>
 
             <div id="contactLinks">
-                <div id="link1"><a href="mailto: abnertoribio@live.com">Email Me</a></div>
-                <div id="link2"><a href="tel:+2524252332">Cell: 252-425-2332</a></div>
-                <div id="link3"><a href="https://www.linkedin.com/in/abner-toribio-vazquez-726241127/">Linkedin</a>
+                <div class="shadow-lg" id="link1"><a href="mailto: abnertoribio@live.com">Email Me</a></div>
+                <div class="shadow-lg" id="link2"><a href="tel:+2524252332">Cell: 252-425-2332</a></div>
+                <div class="shadow-lg" id="link3"><a href="https://www.linkedin.com/in/abner-toribio-vazquez-726241127/">Linkedin</a>
                 </div>
+                <div class="shadow-lg" id="githubLink"><a href="https://github.com/AbnerTor">Github</a></div>
 
             </div>
 
-            <div id="resume"><a id="resumeLink" href="https://docs.google.com/document/d/1--RFGzj_GUmyxyMa8VyKeAvMnGFyfukyuCmkw9r0Q-U/edit?usp=sharing">Resume <img id="resumeImage" src="assets/images/approved.png" alt="resume Image"></a></div>
+            <div  id="resume"><a id="resumeLink"
+                    href="https://docs.google.com/document/d/1--RFGzj_GUmyxyMa8VyKeAvMnGFyfukyuCmkw9r0Q-U/edit?usp=sharing">Resume
+                    <img id="resumeImage" src="assets/images/approved.png" alt="resume Image"></a></div>
 
         </section>
     </div>

@@ -1,3 +1,8 @@
+  * {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
 body {
     font-family: 'Montserrat', sans-serif;
     background-color: #f0f4ef;
@@ -23,15 +28,28 @@ body {
 
 #sideSection {
     position: fixed;
+    display: flex;
+    flex-direction: column;
     top: 40%;
     left: 20px;
     font-size: 25px;
     width: 12%;
     float: left;
-    display: flex;
-    flex-direction: column;
     display: none;
+    text-decoration: underline;
 
+}
+
+#aboutMeSideLink {
+    margin-right: 2em;
+}
+
+#projectSideLink {
+    margin-right: 2em;
+}
+
+#contactSideLink {
+    margin-right: 4em;
 }
 
 #aboutMeSection {
@@ -58,20 +76,23 @@ body {
     position: relative;
     left: 6%;
     top: 10px ;
-    padding-bottom: 250px;
+    padding-bottom: 200px;
 }
 
 #mainHeaderTop {
     font-size: 30px;
     padding-bottom: 1%;
     padding-top: 14.5%;
+    text-shadow: 2px 2px #ebebeb;
+
 }
 
 #mainHeaderBottom {
-    font-size: 85px;
+    font-size: 100px;
     margin-top: -20px;
     line-height: 70px;
     padding-bottom: 10%;
+    text-shadow: 2px 2px #f4f2f3;
 }
 
 #topLinks {
@@ -82,7 +103,7 @@ body {
     padding-top: 10%;
     margin-bottom: 10%;
     padding-bottom: 10%;
-    font-size: 20px;
+    font-size: 30px;
 }
 
 #pAM {
@@ -105,6 +126,8 @@ body {
     padding-bottom: 10%;
     font-size: 65px;
     position: relative;
+    text-shadow: 2px 2px #ebebeb;
+
 }
 
 #abmPNG {
@@ -113,6 +136,7 @@ body {
     position: relative;
     top: 6.5px;
     color: white;
+    border-radius: 1%;
 }
 
 #abmCont {
@@ -125,10 +149,20 @@ body {
 #picture {
     width: 400px;
     height: auto;
+    border-radius: 10px;
+    /* background-color: white;
+    padding: 1em; */
+    border-radius: 15px;
+    box-shadow: 10px 10px #f4743f;
+
 }
 #picDiv {
     float: right;
+    background: white;
+    border-radius: 10px;
+
 }
+
 #textDiv {
     float: left;
     width: 50%;
@@ -166,8 +200,9 @@ body {
     justify-content: center;
     position: relative;
     right: 2%;
-    font-size: 20px;
+    font-size: 35px;
     padding-bottom: 10%;
+    text-decoration: underline;
 }
 
 #projectContainer {
@@ -179,29 +214,49 @@ body {
     padding-top: 20px;
 }
 
-#project1 {
-    border-style: solid;
-    border-width: 5px;
-    border-color: #344966;
-    height: 290px;
-    background-color: #0d1821;
-    color: #f0f4ef;
-    width: 100%;
+#projectsSection {
+    margin-bottom: 10em;
+}
+
+
+
+#loSientoProject {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#lsHeader {
+    font-size: 25px;
+    margin-bottom: 2em;
+    text-decoration: underline;
+}
+#loSiento {
+    border-radius: 10px;
+    box-shadow: 5px 10px #afbed1;
+}
+
+
+#doge {
+    border-radius: 10px;
+    box-shadow: 5px 10px #afbed1;
+
+} 
+#dogeHeader {
+    font-size: 25px;
+    margin-bottom: 2em;
+    text-decoration: underline;
 
 }
-#project2,
-#project3,
-#project4,
-#project5 {
-    padding-top: 10%;
-    padding-bottom: 30%;
-    height: 250px;
-    width: 720px;
-    border-style: solid;
-    border-width: 5px;
-    border-color: #344966;
-    background-color: #0d1821;
-    color: #f0f4ef;
+#dogeProject {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#homeworkContainer {
+    display: flex;
 }
 
 #contactSection {
@@ -234,26 +289,33 @@ body {
 
 #link1,
 #link2,
-#link3 {
+#link3,
+#githubLink {
     border-bottom: solid;
     border-style: solid;
     border-color: #0d1821;
     margin-bottom: 2%;
+    font-size: 20px;
 
 }
 
 
 #resumeLink {
+    font-size: 30px;
     display: flex;
     justify-content: center;
     position: relative;
     right: 2%;
     margin-bottom: 15%;
+    text-decoration: underline;
+
 }
 
 #resumeImage {
     height: 30px;
     padding-left: 10px;
+    position: relative;
+    bottom: -8px;
 }
 
 @media (max-width) {
