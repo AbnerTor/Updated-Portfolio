@@ -331,6 +331,14 @@ body {
         justify-content: center;
         align-items: center;
     }
+    
+    #mainAboutMe {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 
     #picture {
         width: 100px;
